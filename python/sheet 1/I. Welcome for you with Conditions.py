@@ -1,0 +1,5 @@
+state=input()
+values=state.split()
+x=int(values[0])
+y=int(values[1])
+print("Yes" if (x>=y) else "No")
