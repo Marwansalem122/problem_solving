@@ -1,0 +1,7 @@
+stat=input()
+values=stat.split()
+A=int(values[0])
+B=int(values[1])
+C=int(values[2])
+D=int(values[3])
+print(f"Difference =",(A*B)-(C*D))

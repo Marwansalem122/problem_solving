@@ -1,0 +1,7 @@
+state=input()
+values=state.split()
+x=int(values[0])
+y=int(values[1])
+print(f"{x} + {y} = {x+y}")
+print(f"{x} * {y} = {x*y}")
+print(f"{x} - {y} = {x-y}")
