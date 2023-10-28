@@ -13,6 +13,7 @@ for _ in range(m):
     if x < n:
         l[x] += l[x-1] - y
     l[x-1] = 0
+    
 
 for i in l:
     print(i)
